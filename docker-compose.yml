@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  carc:
+    image: jackharrhy/carc
+    build: ./.
+    env_file:
+      - ./.env

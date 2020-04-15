@@ -5,7 +5,7 @@ authors:
   - Jack Arthur Harrhy <me@jackharrhy.com>
 
 targets:
-  bot:
+  carc:
     main: src/bot.cr
 
 dependencies:
