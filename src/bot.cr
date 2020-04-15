@@ -23,7 +23,6 @@ LANGS     = {
 
 TOKEN     = "Bot #{ENV["CARC_DISCORD_TOKEN"]}"
 CLIENT_ID = ENV["CARC_DISCORD_CLIENT_ID"].to_u64
-PREFIX    = ENV["CARC_PREFIX"]
 
 default_headers = HTTP::Headers{
   "Content-Type" => "application/json",
