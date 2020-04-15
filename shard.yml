@@ -1,0 +1,22 @@
+name: carc.in-discord
+version: 0.1.0
+
+authors:
+  - Jack Arthur Harrhy <me@jackharrhy.com>
+
+targets:
+  bot:
+    main: src/bot.cr
+
+dependencies:
+  discordcr:
+    github: discordcr/discordcr
+    branch: cr-0.34
+  kemal:
+    github: kemalcr/kemal
+  dotenv:
+    github: gdotdesign/cr-dotenv
+
+crystal: 0.34.0
+
+license: MIT

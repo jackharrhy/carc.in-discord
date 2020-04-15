@@ -1,0 +1,6 @@
+.env
+
+/docs/
+/lib/
+/bin/
+/.shards/

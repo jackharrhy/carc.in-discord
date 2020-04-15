@@ -1,0 +1,26 @@
+version: 1.0
+shards:
+  discordcr:
+    github: discordcr/discordcr
+    commit: 936869afd3f3be4b0606d5fd51f4489d46ce58a4
+
+  dotenv:
+    github: gdotdesign/cr-dotenv
+    version: 0.7.0
+
+  exception_page:
+    github: crystal-loot/exception_page
+    version: 0.1.4
+
+  kemal:
+    github: kemalcr/kemal
+    version: 0.26.1
+
+  kilt:
+    github: jeromegn/kilt
+    version: 0.4.0
+
+  radix:
+    github: luislavena/radix
+    version: 0.3.9
+
